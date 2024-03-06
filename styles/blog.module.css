@@ -1,0 +1,37 @@
+.blogWrapper {
+    padding: 2rem;
+    width: 100%;
+    min-height: 100vh;
+    background-color: #fff;
+}
+
+.blogWrapper nav {
+    width: 80%;
+    margin: auto;
+    padding: 0 1rem;
+}
+
+.blogWrapper .blogContainer {
+    width: 80%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin: 0 auto;
+    padding: 0;
+}
+
+.blogWrapper h1 {
+    font-size: 2rem;
+    margin: 1rem;
+}
+
+.blogWrapper .blogContainer .blogPost h1 {
+    font-size: 2.5rem;
+    font-weight: 600;
+    margin: 1rem 0;
+}
+
+.blogWrapper .blogContainer .blogPost h1:first-letter {
+    text-transform: uppercase;
+}
